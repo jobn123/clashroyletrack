@@ -1,0 +1,44 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.userinfo-avatar {
+  width: 100%;
+  height: 600rpx;
+  background-size: 100% auto;
+}
+
+.userinfo-nickname {
+  position: absolute;
+  color: white;
+  font-size: 16px; 
+  top: 100rpx;
+}
+.search {
+  position: absolute;
+  top: 160rpx;
+  background-color: #fff;
+  border: 1px solid;
+  width: 98%;
+  height: 80rpx;
+  left: 1%;
+}
+.step {
+  position: absolute;
+  flex: 1;
+  color: white;
+  flex-direction: column;
+  font-size: 16px;
+  top: 260rpx;
+}
+.step text {
+  display: block;
+  margin-bottom: 20rpx;
+}
+.deck-container {
+  flex: 1;
+}

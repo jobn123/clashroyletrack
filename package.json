@@ -1,0 +1,15 @@
+{
+  "name": "clashroyletrack",
+  "version": "0.0.1",
+  "description": "A webchat app project generate by miniapps",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "miniapp build -w",
+    "build": "miniapp build"
+  },
+  "author": "ZhouBin",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.18.0"
+  }
+}

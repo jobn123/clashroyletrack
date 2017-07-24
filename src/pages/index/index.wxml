@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="../../images/bats-challenge.jpg" ></image>
+    <text class="userinfo-nickname">Track your Clash Royale Stats and Chests</text>
+    <input class="search" type="text" confirm-type="search" placeholder="Search for player Tag #XXXXX" />
+    <view class="step">
+      <text>1.Lauch Clash Royale and tap your name</text>
+      <text>2.Find your Player Tag blew your name</text>
+      <text>3.Put your Player Tag in the field above</text>
+    </view>
+  </view>
+   <view class="usermotto">
+   <view class="classname"><text>Deck Builder</text></view>
+    <view class="classname"><text>Pick an arena to start building your deck</text></view>
+    <view class="classname">
+      <view class="item">
+        <view class="classname">
+          <image src="../../images/arenas_1.png"></image>
+        </view>
+        <view class="classname">
+          <text>Arena 1</text>
+        </view>
+        <view class="classname">
+          <text>Goblin Stadium</text>
+        </view>
+      </view>
+    </view>
+  </view> 
+</view>
