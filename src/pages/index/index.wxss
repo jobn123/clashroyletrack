@@ -1,26 +1,29 @@
 /**index.wxss**/
+.container {
+  background-color: rgb(243, 243, 243)
+}
 .userinfo {
   display: flex;
   flex: 1;
   flex-direction: column;
   position: relative;
 }
-
 .userinfo-avatar {
   width: 100%;
-  height: 600rpx;
+  height: 1000rpx;
   background-size: 100% auto;
 }
-
 .userinfo-nickname {
   position: absolute;
   color: white;
-  font-size: 16px; 
-  top: 100rpx;
+  font-size: 24px; 
+  top: 200rpx;
+  left: 50%;
+  transform: translate(-50%, -50%);    /* 50%为自身尺寸的一半 */
 }
 .search {
   position: absolute;
-  top: 160rpx;
+  top: 280rpx;
   background-color: #fff;
   border: 1px solid;
   width: 98%;
@@ -33,12 +36,62 @@
   color: white;
   flex-direction: column;
   font-size: 16px;
-  top: 260rpx;
+  top: 412rpx;
+  left: 50%;
+  transform: translate(-50%);
 }
 .step text {
   display: block;
   margin-bottom: 20rpx;
 }
+.usermotto {
+  display: flex;
+  flex-direction: column
+}
 .deck-container {
   flex: 1;
+  flex-direction: row
+}
+.deck-item{
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+  text-align: center;
+  margin-top: 20px;
+}
+.deck-img {
+  width: 233px;
+  height: 195px;
+}
+.deck-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 900;
+}
+.deck-place {
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.deck-text {
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 900;
+  text-align: center
+}
+.deck-desc {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.tip-1::before {
+  display: inline-block;
+  content: "1";
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 36px;
 }
