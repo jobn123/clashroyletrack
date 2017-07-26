@@ -18,9 +18,9 @@
    <view class="deck-text"><text>Deck Builder</text></view>
     <view class="deck-desc"><text>Pick an arena to start building your deck</text></view>
     <view class="deck-container">
-      <view class="deck-item" wx:for="{{decks}}">
+      <view class="deck-item" wx:for="{{decks}}" wx:key="{{index}}">
         <view class="classname">
-          <image class="deck-img" src="{{item.img}}"></image>
+          <image class="deck-img" src="https://statsroyale.com/{{item.img}}"></image>
         </view>
         <view class="deck-title">
           <text>{{item.title}}</text>
