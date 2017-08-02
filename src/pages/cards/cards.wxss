@@ -1,0 +1,22 @@
+
+.card-item {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.card-img {
+  display: flex;
+  flex: 1;
+  justify-content:center;
+}
+.card-img image {
+  width: 74px;
+  height: 89px;
+}
+.card-winrate, .card-usage {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-around;
+}

@@ -15,18 +15,29 @@
     </view>
   </view>
    <view class="usermotto">
+   <view class="popularCards">
+    <view class="popular-cards_text"><text>Popular Cards</text></view>
+    <view class="popular-cards_container">
+      <view class="popular-cards_item" wx:for="{{cards}}" wx:key="{{index}}">
+        <view class="popular-cards_img"><image src="{{item.cardImg}}"></image></view>
+        <view class="popular-cards_name"><text>{{item.cardName}}</text></view>
+        <view class="popular-cards_usage"><text>{{item.cardUsage}}</text></view>
+      </view>
+    </view>
+    <view class="all-popularCards" bindtap="goToCards"><text>See all Popular Cards ></text></view>
+   </view>
    <view class="deck-text"><text>Deck Builder</text></view>
     <view class="deck-desc"><text>Pick an arena to start building your deck</text></view>
     <view class="deck-container">
       <view class="deck-item" wx:for="{{decks}}" wx:key="{{index}}">
         <view class="classname">
-          <image class="deck-img" src="https://statsroyale.com/{{item.img}}"></image>
+          <image class="deck-img" src="{{item.deckImg}}"></image>
         </view>
         <view class="deck-title">
-          <text>{{item.title}}</text>
+          <text>{{item.deckLevel}}</text>
         </view>
         <view class="deck-place">
-          <text>{{item.place}}</text>
+          <text>{{item.deckPlace}}</text>
         </view>
       </view>
     </view>

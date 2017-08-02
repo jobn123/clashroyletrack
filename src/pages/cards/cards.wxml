@@ -1,0 +1,16 @@
+<!--cards.wxml-->
+<view class="cards">
+  <view class="card-item" wx:for="{{cards}}" wx:key="{{index}}">
+    <view class="card-img">
+      <image src="http://statsroyale.com{{item.img}}"></image>
+    </view>
+    <view class="card-winrate" >
+      <view class="classname"><text>winrate</text></view>
+      <view class="classname"><text>{{item.winrate}}%</text></view>
+    </view>
+    <view class="card-usage">
+      <view class="classname"><text>Usage</text></view>
+      <view class="classname"><text>{{item.usage}}%</text></view>
+    </view>
+  </view>
+</view>

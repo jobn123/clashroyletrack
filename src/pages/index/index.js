@@ -5,7 +5,8 @@ Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
-    decks: []
+    decks: [],
+    cards: []
   },
   //事件处理函数
   bindViewTap: function() {
@@ -13,17 +14,25 @@ Page({
     //   url: '../logs/logs'
     // })
   },
+  goToCards: function() {
+    // wx.navigateTo({
+    //   url: '../cards/cards',
+    // })
+    wx.openUrl("https://www.zhihu.com/question/60253383")
+  },
   onLoad: function () {
+
     console.log('onLoad')
     var that = this
     wx.request({
-      url: 'https://2d764e57.ngrok.io/api/decklists/?format=json',
+      url: 'https://c2554f86.ngrok.io/api/index/?format=json',
       header: {
         'content-type': 'application/json'
       },
       success: function(res) {
         that.setData({
-          decks: res.data
+          decks: res.data[0].decks,
+          cards: res.data[0].popularCards
         })
       }
     })

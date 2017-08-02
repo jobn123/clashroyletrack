@@ -95,3 +95,33 @@
   text-align: center;
   font-size: 36px;
 }
+.popular-cards_text  {
+  font-size: 30px;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+.popular-cards_img image {
+  width: 156px;
+  height: 187px;
+}
+.popular-cards_item {
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+}
+.popular-cards_name {
+  font-size: 24px;
+}
+.popular-cards_usage {
+  font-size: 32px;
+  margin-top: 10px;
+}
+.all-popularCards {
+  background-color: #fafafa;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
