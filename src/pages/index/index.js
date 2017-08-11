@@ -15,17 +15,21 @@ Page({
     // })
   },
   goToCards: function() {
-    // wx.navigateTo({
-    //   url: '../cards/cards',
-    // })
-    wx.openUrl("https://www.zhihu.com/question/60253383")
+    wx.navigateTo({
+      url: '../cards/cards',
+    })
+  },
+  goToArena: function() {
+    wx.navigateTo({
+      url: '../deck/deck',
+    })
   },
   onLoad: function () {
 
     console.log('onLoad')
     var that = this
     wx.request({
-      url: 'https://c2554f86.ngrok.io/api/index/?format=json',
+      url: 'https://51537554.ngrok.io/api/index/?format=json',
       header: {
         'content-type': 'application/json'
       },

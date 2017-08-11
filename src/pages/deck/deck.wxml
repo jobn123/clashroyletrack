@@ -1,0 +1,12 @@
+<!--cards.wxml-->
+<view class="deck">
+  <text>deck</text>
+  <view class="cards">
+    <view class="classname">
+      <image src="src"></image>
+    </view>
+    <text>53.61%</text>
+    <text>% win based on 26561 games</text>
+    <text>1.47</text>
+  </view>
+</view>

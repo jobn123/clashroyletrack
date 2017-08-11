@@ -30,7 +30,7 @@
     <view class="deck-desc"><text>Pick an arena to start building your deck</text></view>
     <view class="deck-container">
       <view class="deck-item" wx:for="{{decks}}" wx:key="{{index}}">
-        <view class="classname">
+        <view class="classname" bindtap="goToArena">
           <image class="deck-img" src="{{item.deckImg}}"></image>
         </view>
         <view class="deck-title">

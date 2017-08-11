@@ -7,7 +7,7 @@ Page({
   onLoad: function () {
     var that = this
     wx.request({
-      url: 'https://c2554f86.ngrok.io/api/popularCardslists/?format=json',
+      url: 'https://51537554.ngrok.io/api/popularCardslists/?format=json',
       header: {
         'content-type': 'application/json'
       },
