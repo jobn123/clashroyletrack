@@ -1,8 +1,8 @@
 <!--cards.wxml-->
 <view class="deck">
   <view class="cards" wx:for="{{cards}}" wx:key="{{index}}">
-    <view class="classname" wx:for="{{item.imgs}}" wx:key="{{index}}">
-      <image src="http://statsroyale.com{{item}}"></image>
+    <view class="cards-item"  >
+      <image wx:for="{{item.imgs}}" wx:key="{{index}}" src="http://statsroyale.com{{item}}"></image>
     </view>
     <view class="classname">
       <text>{{item.winrate}}</text>
