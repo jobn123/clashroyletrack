@@ -3,7 +3,7 @@
 ### 项目说明：
 微信小程序：查看皇室战争受欢迎的卡片以及卡组
 
-[数据来源：爬取的statsroyale网站的数据] 数据爬取的可以看我的另一个项目
+[数据来源：爬取的statsroyale网站的数据] 数据爬取的可以看我的另一个爬虫项目[clashroyale](https://github.com/jobn123/clashroyale)
 
 ### 目录结构：
 - images — 存放项目图片
