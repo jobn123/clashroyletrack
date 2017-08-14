@@ -12,15 +12,15 @@
 
 ### 项目截图:
 
-<img src="https://github.com/jobn123/clashroyletrack/blob/master/images/screenshots/screenshots-01.jpeg" width="320px" style="display:inline;">
+<img src="https://github.com/jobn123/clashroyletrack/blob/master/src/images/screenshots/screenshots-01.jpeg" width="320px" style="display:inline;">
     
-<img src="https://github.com/jobn123/clashroyletrack/blob/master/images/screenshots/screenshots-02.jpeg" width="320px" style="display:inline;">
+<img src="https://github.com/jobn123/clashroyletrack/blob/master/src/images/screenshots/screenshots-02.jpeg" width="320px" style="display:inline;">
 
-<img src="https://github.com/jobn123/clashroyletrack/blob/master/images/screenshots/screenshots-03.jpeg" width="320px" style="display:inline;">
+<img src="https://github.com/jobn123/clashroyletrack/blob/master/src/images/screenshots/screenshots-03.jpeg" width="320px" style="display:inline;">
 
-<img src="https://github.com/jobn123/clashroyletrack/blob/master/images/screenshots/screenshots-04.jpeg" width="320px" style="display:inline;">
+<img src="https://github.com/jobn123/clashroyletrack/blob/master/src/images/screenshots/screenshots-04.jpeg" width="320px" style="display:inline;">
 
-<img src="https://github.com/jobn123/clashroyletrack/blob/master/images/screenshots/screenshots-05.jpeg" width="320px" style="display:inline;">
+<img src="https://github.com/jobn123/clashroyletrack/blob/master/src/images/screenshots/screenshots-05.jpeg" width="320px" style="display:inline;">
 
 ### 开发环境：
 微信web开发者工具 v0.20.191900
