@@ -3,19 +3,21 @@ Page({
   data: {
     cards: []
   },
-  onLoad: function () {
+  onLoad: function (opts) {
     var that = this
-    // wx.request({
-    //   url: 'https://51537554.ngrok.io/api/popularCardslists/?format=json',
-    //   header: {
-    //     'content-type': 'application/json'
-    //   },
-    //   success: function (res) {
-    //     that.setData({
-    //       cards: res.data[0].cards
-    //     })
-    //   }
-    // })
+    console.log("get Params")
+    console.log(opts.id)
+    wx.request({
+      url: 'https://51537554.ngrok.io/api/getArenaCardsById/?aid='+ opts.id +'&format=json',
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        that.setData({
+          cards: res.data.data
+        })
+      }
+    })
   }
 })
 

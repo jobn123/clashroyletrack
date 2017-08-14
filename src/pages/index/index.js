@@ -19,9 +19,10 @@ Page({
       url: '../cards/cards',
     })
   },
-  goToArena: function() {
+  goToArena: function(e) {
+    var id = e.currentTarget.dataset.index
     wx.navigateTo({
-      url: '../deck/deck',
+      url: '../deck/deck?id=' + id,
     })
   },
   onLoad: function () {

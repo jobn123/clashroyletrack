@@ -4,7 +4,7 @@ Page({
   data: {
     cards: []
   },
-  onLoad: function () {
+  onLoad: function (opts) {
     var that = this
     wx.request({
       url: 'https://51537554.ngrok.io/api/popularCardslists/?format=json',
