@@ -5,13 +5,13 @@
     <text class="userinfo-nickname">Track your Stats and Chests</text>
     <input class="search" type="text" confirm-type="search" placeholder="Search for player Tag #XXXXX" />
     <view class="step">
-      <text class="tip-1">Lauch Clash Royale and 
+      <text class="tip-1">1、Lauch Clash Royale and 
         <text style="color:#2dff06">tap your name</text> 
       </text>
-      <text class="tip-2">Find your Player Tag 
+      <text class="tip-2">2、Find your Player Tag 
         <text style="color:#2dff06">blew your name</text>
       </text>
-      <text class="tip3">Put your Player Tag in the field above</text>
+      <text class="tip3">3、Put your Player Tag in the field above</text>
     </view>
   </view>
    <view class="usermotto">

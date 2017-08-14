@@ -31,14 +31,16 @@
   left: 1%;
 }
 .step {
-  position: absolute;
-  flex: 1;
-  color: white;
-  flex-direction: column;
-  font-size: 16px;
-  top: 412rpx;
-  left: 50%;
-  transform: translate(-50%);
+  /* flex: 1 */
+  position:absolute;
+  flex:1;
+  color:white;
+  flex-direction:column;
+  font-size:16px;
+  top:412rpx;
+  left:20%;
+  width:60%;
+
 }
 .step text {
   display: block;
@@ -84,7 +86,7 @@
   line-height: 26px;
   text-align: center;
 }
-.tip-1::before {
+/* .tip-1::before {
   display: inline-block;
   content: "1";
   border: 2px solid #fff;
@@ -94,7 +96,7 @@
   line-height: 38px;
   text-align: center;
   font-size: 36px;
-}
+} */
 .popular-cards_text  {
   font-size: 30px;
   text-align: center;
